@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_b75eee36f8084013925f169600f59e61 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_b75eee36f8084013925f169600f59e61" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_b75eee36f8084013925f169600f59e61 = L.map(
+        'map_b75eee36f8084013925f169600f59e61', {
+        center: [3.1122, 101.639],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_746a492e1f1b4530a46716e62e9c6f53 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 14,
+        "maxZoom": 14,
+        "minZoom": 8,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_b75eee36f8084013925f169600f59e61);
+    
+        var marker_61c3df8a1b7b426383f5fa1d54954d8c = L.marker(
+            [3.3615395462207878, 101.56318183511695],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+
+                var icon_3a89d7b1561a42abab6757ab85771b56 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61c3df8a1b7b426383f5fa1d54954d8c.setIcon(icon_3a89d7b1561a42abab6757ab85771b56);
+            
+    
+            var popup_4e21e8f2ea734a86a99f32ec123bfef1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2f5e02f9c97d46d29a8fd05e845b39cc = $(`<div id="html_2f5e02f9c97d46d29a8fd05e845b39cc" style="width: 100.0%; height: 100.0%;">Rawang</div>`)[0];
+                popup_4e21e8f2ea734a86a99f32ec123bfef1.setContent(html_2f5e02f9c97d46d29a8fd05e845b39cc);
+            
+
+            marker_61c3df8a1b7b426383f5fa1d54954d8c.bindPopup(popup_4e21e8f2ea734a86a99f32ec123bfef1)
+            ;
+
+            
+        
+    
+        marker_61c3df8a1b7b426383f5fa1d54954d8c.bindTooltip(
+            `<div>`
+            + `Click to see Origin name` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_57c8aecdadb2416482b11ee8f83f2b1a = L.marker(
+            [3.049398375759954, 101.58546611160301],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+
+                var icon_6a0644ba92bd472288357bd111695e28 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_57c8aecdadb2416482b11ee8f83f2b1a.setIcon(icon_6a0644ba92bd472288357bd111695e28);
+            
+    
+            var popup_3a40e68ab3204883ac6a778031b1f8a0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_eccab335d07c4eb98d4afe0db8340576 = $(`<div id="html_eccab335d07c4eb98d4afe0db8340576" style="width: 100.0%; height: 100.0%;">Subang Jaya</div>`)[0];
+                popup_3a40e68ab3204883ac6a778031b1f8a0.setContent(html_eccab335d07c4eb98d4afe0db8340576);
+            
+
+            marker_57c8aecdadb2416482b11ee8f83f2b1a.bindPopup(popup_3a40e68ab3204883ac6a778031b1f8a0)
+            ;
+
+            
+        
+    
+        marker_57c8aecdadb2416482b11ee8f83f2b1a.bindTooltip(
+            `<div>`
+            + `Click to see Origin name` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e4bd780541d4478fabb01cf758bd87e9 = L.marker(
+            [3.141855957281073, 101.76158583424586],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+
+                var icon_b299ffe8bd614af2ad9bc562e5a73920 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4bd780541d4478fabb01cf758bd87e9.setIcon(icon_b299ffe8bd614af2ad9bc562e5a73920);
+            
+    
+            var popup_9e8a0e3cce814f48abdd96223699d8c4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_07b6bba20ff047efb1a491b3afb78789 = $(`<div id="html_07b6bba20ff047efb1a491b3afb78789" style="width: 100.0%; height: 100.0%;">Ampang</div>`)[0];
+                popup_9e8a0e3cce814f48abdd96223699d8c4.setContent(html_07b6bba20ff047efb1a491b3afb78789);
+            
+
+            marker_e4bd780541d4478fabb01cf758bd87e9.bindPopup(popup_9e8a0e3cce814f48abdd96223699d8c4)
+            ;
+
+            
+        
+    
+        marker_e4bd780541d4478fabb01cf758bd87e9.bindTooltip(
+            `<div>`
+            + `Click to see Origin name` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c27581bff72d4073a0f4621a6cb392aa = L.marker(
+            [3.1000170516638885, 101.53071480907951],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+
+                var icon_91593465d98a4ba7a2a83a09cc9f8fdb = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c27581bff72d4073a0f4621a6cb392aa.setIcon(icon_91593465d98a4ba7a2a83a09cc9f8fdb);
+            
+    
+            var popup_a0d4fd902e764057bcbd219e01343c75 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c8671887da454319b0bba286dacf9f86 = $(`<div id="html_c8671887da454319b0bba286dacf9f86" style="width: 100.0%; height: 100.0%;">Bukit Jelutong</div>`)[0];
+                popup_a0d4fd902e764057bcbd219e01343c75.setContent(html_c8671887da454319b0bba286dacf9f86);
+            
+
+            marker_c27581bff72d4073a0f4621a6cb392aa.bindPopup(popup_a0d4fd902e764057bcbd219e01343c75)
+            ;
+
+            
+        
+    
+        marker_c27581bff72d4073a0f4621a6cb392aa.bindTooltip(
+            `<div>`
+            + `Click to see Destination name` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_790a6b5c69c34c899d73c1ed57065985 = L.marker(
+            [3.227994355250716, 101.42730357605375],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+
+                var icon_c06d254d0659401383c10e563312fdcd = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_790a6b5c69c34c899d73c1ed57065985.setIcon(icon_c06d254d0659401383c10e563312fdcd);
+            
+    
+            var popup_f22a37f9b55746988e909b72b2db5bd2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_766db112d53946f99e1c08773cda4e80 = $(`<div id="html_766db112d53946f99e1c08773cda4e80" style="width: 100.0%; height: 100.0%;">Puncak Alam</div>`)[0];
+                popup_f22a37f9b55746988e909b72b2db5bd2.setContent(html_766db112d53946f99e1c08773cda4e80);
+            
+
+            marker_790a6b5c69c34c899d73c1ed57065985.bindPopup(popup_f22a37f9b55746988e909b72b2db5bd2)
+            ;
+
+            
+        
+    
+        marker_790a6b5c69c34c899d73c1ed57065985.bindTooltip(
+            `<div>`
+            + `Click to see Destination name` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a885d949103d45f2a499e3b894621c94 = L.marker(
+            [2.9188704151716256, 101.65251821655471],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+
+                var icon_a6fe6d2da9c141539564f2d16cd9e14f = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a885d949103d45f2a499e3b894621c94.setIcon(icon_a6fe6d2da9c141539564f2d16cd9e14f);
+            
+    
+            var popup_f6c1855b0f0a4f82aa4cfc21d7cadc1f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_32d1d29c131349bdb146c00a4f80a7dc = $(`<div id="html_32d1d29c131349bdb146c00a4f80a7dc" style="width: 100.0%; height: 100.0%;">Cyberjaya</div>`)[0];
+                popup_f6c1855b0f0a4f82aa4cfc21d7cadc1f.setContent(html_32d1d29c131349bdb146c00a4f80a7dc);
+            
+
+            marker_a885d949103d45f2a499e3b894621c94.bindPopup(popup_f6c1855b0f0a4f82aa4cfc21d7cadc1f)
+            ;
+
+            
+        
+    
+        marker_a885d949103d45f2a499e3b894621c94.bindTooltip(
+            `<div>`
+            + `Click to see Destination name` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var feature_group_c14e2438426347e4985efc2babae022b = L.featureGroup(
+                ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+                var poly_line_f6cf75b3a8a04742ae1266d1400b289f = L.polyline(
+                    [[3.3615395462207878, 101.56318183511695], [3.1000170516638885, 101.53071480907951]],
+                    {
+  "bubblingMouseEvents": true,
+  "color": "#010073",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#010073",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 5
+}
+                    )
+                    .addTo(feature_group_c14e2438426347e4985efc2babae022b);
+            
+    
+            var popup_64ed63b9b9294cf196bbbe2a6c6575b8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_908cc788cbd54fc391c8881f370b1a9f = $(`<div id="html_908cc788cbd54fc391c8881f370b1a9f" style="width: 100.0%; height: 100.0%;">C1 Rawang-Bukit Jelutong</div>`)[0];
+                popup_64ed63b9b9294cf196bbbe2a6c6575b8.setContent(html_908cc788cbd54fc391c8881f370b1a9f);
+            
+
+            poly_line_f6cf75b3a8a04742ae1266d1400b289f.bindPopup(popup_64ed63b9b9294cf196bbbe2a6c6575b8)
+            ;
+
+            
+        
+    
+        poly_line_f6cf75b3a8a04742ae1266d1400b289f.bindTooltip(
+            `<div>`
+            + `C1-Rawang-Bukit Jelutong` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var feature_group_0ca6cd61fbec489cb73e6605da5bb103 = L.featureGroup(
+                ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+                var poly_line_dd7a15067a704e40a85b87d1812c3d35 = L.polyline(
+                    [[3.049398375759954, 101.58546611160301], [3.227994355250716, 101.42730357605375]],
+                    {
+  "bubblingMouseEvents": true,
+  "color": "#6e0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#6e0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 5
+}
+                    )
+                    .addTo(feature_group_0ca6cd61fbec489cb73e6605da5bb103);
+            
+    
+            var popup_8fa5205800dc4ee194d8091cacf5e674 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bb22fe1548ad465987744d4385162a1a = $(`<div id="html_bb22fe1548ad465987744d4385162a1a" style="width: 100.0%; height: 100.0%;">C2 Subang Jaya-Puncak Alam</div>`)[0];
+                popup_8fa5205800dc4ee194d8091cacf5e674.setContent(html_bb22fe1548ad465987744d4385162a1a);
+            
+
+            poly_line_dd7a15067a704e40a85b87d1812c3d35.bindPopup(popup_8fa5205800dc4ee194d8091cacf5e674)
+            ;
+
+            
+        
+    
+        poly_line_dd7a15067a704e40a85b87d1812c3d35.bindTooltip(
+            `<div>`
+            + `C2-Subang Jaya-Puncak Alam` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var feature_group_09377d19a92a416c8163ef8c02db598d = L.featureGroup(
+                ).addTo(map_b75eee36f8084013925f169600f59e61);
+        
+    
+                var poly_line_a0c06850af2441b69fc41d3ec2624b1f = L.polyline(
+                    [[3.141855957281073, 101.76158583424586], [2.9188704151716256, 101.65251821655471]],
+                    {
+  "bubblingMouseEvents": true,
+  "color": "#007300",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#007300",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 5
+}
+                    )
+                    .addTo(feature_group_09377d19a92a416c8163ef8c02db598d);
+            
+    
+            var popup_e4600a8670b64c25a23777d2d22aa508 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_493dd6d5833e4aef8549b6336506c6d2 = $(`<div id="html_493dd6d5833e4aef8549b6336506c6d2" style="width: 100.0%; height: 100.0%;">C3 Ampang-Cyberjaya</div>`)[0];
+                popup_e4600a8670b64c25a23777d2d22aa508.setContent(html_493dd6d5833e4aef8549b6336506c6d2);
+            
+
+            poly_line_a0c06850af2441b69fc41d3ec2624b1f.bindPopup(popup_e4600a8670b64c25a23777d2d22aa508)
+            ;
+
+            
+        
+    
+        poly_line_a0c06850af2441b69fc41d3ec2624b1f.bindTooltip(
+            `<div>`
+            + `C3-Ampang-Cyberjaya` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var layer_control_15edda1b7db04fef8b6884c80f539930 = {
+                base_layers : { "openstreetmap" : tile_layer_746a492e1f1b4530a46716e62e9c6f53, },
+                overlays : { "C1 Rawang-Bukit Jelutong" : feature_group_c14e2438426347e4985efc2babae022b,"C2 Subang Jaya-Puncak Alam" : feature_group_0ca6cd61fbec489cb73e6605da5bb103,"C3 Ampang-Cyberjaya" : feature_group_09377d19a92a416c8163ef8c02db598d, }
+                };
+            L.control.layers(
+                layer_control_15edda1b7db04fef8b6884c80f539930.base_layers,
+                layer_control_15edda1b7db04fef8b6884c80f539930.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_b75eee36f8084013925f169600f59e61);
+            
+        
+</script>
